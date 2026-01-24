@@ -1,0 +1,30 @@
+{
+  "name": "crud-test-mule-1",
+  "version": "1.0.0",
+  "description": "This is a test mule application that exposes apis for crud ops on databases.",
+  "keywords": [
+    "node",
+    "crud"
+  ],
+  "homepage": "https://gitlab.com/practice_and_learning/reactapps/node-crud-test-mule-1#readme",
+  "bugs": {
+    "url": "https://gitlab.com/practice_and_learning/reactapps/node-crud-test-mule-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/practice_and_learning/reactapps/node-crud-test-mule-1.git"
+  },
+  "license": "ISC",
+  "author": "Sanket Pargaonkar",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "pino": "^10.3.0",
+    "sequelize": "^6.37.7",
+    "zod": "^4.3.5"
+  }
+}
