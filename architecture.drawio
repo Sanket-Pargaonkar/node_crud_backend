@@ -136,6 +136,9 @@
         <mxCell id="hgXijZGXf7dHyCSXmhIB-58" value="Lib Used: Pino" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="170" y="180" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6aJshSdjRYUCqXrKuDDh-1" value="- ESLint, prettirer, lint-staged,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;husky&amp;nbsp;&amp;nbsp;&lt;br&gt;- Swagger for api documentation&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="320" y="903" width="220" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
