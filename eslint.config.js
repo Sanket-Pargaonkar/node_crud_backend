@@ -1,5 +1,6 @@
 const js = require('@eslint/js');
 const prettier = require('eslint-config-prettier');
+const globals = require('globals');
 module.exports = [
   js.configs.recommended,
   prettier,
@@ -8,6 +9,9 @@ module.exports = [
     // Configure language options
     languageOptions: {
       sourceType: 'commonjs', // Explicitly specify CommonJS source type
+      globals: {
+        ...globals.node,
+      },
     },
 
     rules: {

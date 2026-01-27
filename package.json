@@ -19,7 +19,9 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
+    "start": "node server.js",
     "test": "node --test",
+    "test-watch": "node --test --watch",
     "lint": "eslint .",
     "lint-fix": "eslint --fix .",
     "prettier-write": "prettier --write .",
@@ -35,6 +37,7 @@
     ]
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "pino": "^10.3.0",
     "sequelize": "^6.37.7",
@@ -44,6 +47,7 @@
     "@eslint/js": "^9.39.2",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.1.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.8.1"
