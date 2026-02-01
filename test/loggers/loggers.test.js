@@ -2,7 +2,7 @@ const test = require('node:test');
 const assert = require('node:assert');
 
 test('the logger import should return a object', async (t) => {
-  const logger = require('../../loggers/logger');
+  const logger = require('../../src/loggers/logger');
   assert.notStrictEqual(logger, undefined);
   await t.test('logger should have info object', () => {
     assert.equal(Object.prototype.hasOwnProperty.call(logger, 'info'), true);
