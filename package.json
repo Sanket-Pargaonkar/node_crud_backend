@@ -19,7 +19,7 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node src/server.js",
     "test": "node --test",
     "test-watch": "node --test --watch",
     "lint": "eslint .",
