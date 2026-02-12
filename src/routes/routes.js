@@ -1,9 +1,6 @@
 const router = require('express').Router();
-const httpStatusCodes = require('http-status-codes');
+const controllers = require('../controllers/get');
 
-router.get('/', (req, res) => {
-  res.status(httpStatusCodes.StatusCodes.OK);
-  res.send(httpStatusCodes.ReasonPhrases.OK);
-});
+router.get('/', controllers.get);
 
 module.exports = router;
